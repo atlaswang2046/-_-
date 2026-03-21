@@ -4659,6 +4659,32 @@
                           "children": [
                             {
                               "type": "frame",
+                              "id": "wkGO2",
+                              "fill": "#FEF3C7",
+                              "cornerRadius": 999,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "#F59E0B"
+                              },
+                              "padding": [
+                                4,
+                                8
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "zqIjY",
+                                  "fill": "#92400E",
+                                  "content": "[->] 跳转至：P2.0 调度日历",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
                               "id": "LSbgJ",
                               "name": "enterProcessBtn",
                               "fill": "#409EFF",
@@ -5281,6 +5307,32 @@
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "frame",
+                              "id": "AjfAs",
+                              "fill": "#FEF3C7",
+                              "cornerRadius": 999,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "#F59E0B"
+                              },
+                              "padding": [
+                                4,
+                                8
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "K1Aec",
+                                  "fill": "#92400E",
+                                  "content": "[->] 跳转至：P5.0 团队预订",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
                               "type": "icon_font",
                               "id": "BMtHM",
                               "name": "qeIcon2",
@@ -5403,42 +5455,6 @@
                               "name": "qeTxt5",
                               "fill": "#E6A23C",
                               "content": "批量签到",
-                              "fontFamily": "Inter",
-                              "fontSize": 13,
-                              "fontWeight": "500"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "PvtB8",
-                          "name": "qeBtn6",
-                          "width": "fill_container",
-                          "fill": "#FDF6EC",
-                          "cornerRadius": 6,
-                          "layout": "vertical",
-                          "gap": 6,
-                          "padding": [
-                            12,
-                            0
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon_font",
-                              "id": "ku83F",
-                              "name": "qeIcon6",
-                              "width": 24,
-                              "height": 24,
-                              "iconFontFamily": "Material Symbols Rounded",
-                              "fill": "#E6A23C"
-                            },
-                            {
-                              "type": "text",
-                              "id": "mNwJR",
-                              "name": "qeTxt6",
-                              "fill": "#E6A23C",
-                              "content": "批量交付",
                               "fontFamily": "Inter",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -69750,8 +69766,8 @@
     {
       "type": "note",
       "id": "ehpvH",
-      "x": 2213,
-      "y": 20567,
+      "x": 1976,
+      "y": 20595,
       "name": "noteB1_1",
       "width": 250,
       "height": 0,
@@ -69760,8 +69776,8 @@
     {
       "type": "note",
       "id": "qIn2C",
-      "x": 6507,
-      "y": 20408,
+      "x": 6747,
+      "y": 20425,
       "name": "noteB6_1",
       "width": 549,
       "height": 1625,
@@ -90899,8 +90915,8 @@
     {
       "type": "note",
       "id": "z3cRl",
-      "x": 2600,
-      "y": 20595,
+      "x": 2226,
+      "y": 20611,
       "name": "noteP0_1",
       "width": 250,
       "height": 220,
@@ -90939,8 +90955,8 @@
     {
       "type": "note",
       "id": "Pe5Hm",
-      "x": 4260,
-      "y": 14952,
+      "x": 4500,
+      "y": 15016,
       "name": "noteP4_1_1",
       "width": 250,
       "height": 220,
@@ -90975,6 +90991,729 @@
       "width": 250,
       "height": 220,
       "content": "📋 P4.3.2 全部取消弹窗\n\n【核心逻辑】一次性取消全部未交付项目并退款。\n【主操作】确认取消范围、查看退款结果、提交。\n【关键校验】金额计算与订单剩余项目一致。"
+    },
+    {
+      "type": "frame",
+      "id": "cXMYD",
+      "x": 1600,
+      "y": 760,
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "dexTC",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P3.1 客户信息",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "zJzZ0",
+      "x": 1600,
+      "y": 844,
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "nSfV5",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P4.0 订单处理池",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Ofe8u",
+      "x": 1620,
+      "y": 1510,
+      "name": "jumpBadge_p20_p21",
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "exA8g",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P2.1 周视图",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "l7Oks",
+      "x": 1620,
+      "y": 1538,
+      "name": "jumpBadge_p20_p22",
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "YXcDX",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P2.2 月视图",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "hKnto",
+      "x": 1620,
+      "y": 1566,
+      "name": "jumpBadge_p20_p211",
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "iVata",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P2.1.1 改期确认",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "HE1ru",
+      "x": 1620,
+      "y": 1594,
+      "name": "jumpBadge_p20_p213",
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "Pox1u",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P2.1.3 预约详情抽屉",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "1V0oA",
+      "x": 1510,
+      "y": 7238,
+      "name": "jumpBadge_p30_p301",
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "quWvg",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P3.0.1 订单详情",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "xZYKH",
+      "x": 1510,
+      "y": 7266,
+      "name": "jumpBadge_p30_p302",
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "JQDMC",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P3.0.2 审核弹窗",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Kcxzu",
+      "x": 1510,
+      "y": 7294,
+      "name": "jumpBadge_p30_p211",
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "zigb3",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P2.1.1 改期确认",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "cHkf9",
+      "x": 3830,
+      "y": 7238,
+      "name": "jumpBadge_p31_p32",
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "xIysy",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P3.2 预订房间",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "qhyvr",
+      "x": 6130,
+      "y": 7238,
+      "name": "jumpBadge_p32_p33",
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "Xz9KQ",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P3.3 预订项目",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "JRCMT",
+      "x": 8430,
+      "y": 7238,
+      "name": "jumpBadge_p33_p34",
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "55oAO",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P3.4 费用确认",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "JnKPq",
+      "x": 10730,
+      "y": 7238,
+      "name": "jumpBadge_p34_p35",
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "Hp8qf",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P3.5 预约确认",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "BJcQn",
+      "x": 13030,
+      "y": 7238,
+      "name": "jumpBadge_p35_p351",
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "Oe9sh",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P3.5.1 预占确认",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "gRLJs",
+      "x": 13030,
+      "y": 8398,
+      "name": "jumpBadge_p351_p361",
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "xRYXb",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P3.6.1 到店收款",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "dBdHJ",
+      "x": 1500,
+      "y": 14020,
+      "name": "jumpBadge_p40_p41",
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "xjXCP",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P4.1 核销确认",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "h3spO",
+      "x": 1500,
+      "y": 14048,
+      "name": "jumpBadge_p40_p42",
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "ZzBIf",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P4.2 退改申请",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "8EpNm",
+      "x": 1500,
+      "y": 14076,
+      "name": "jumpBadge_p40_p43",
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "aDjC5",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P4.3 部分取消",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "qD7vF",
+      "x": 1500,
+      "y": 14104,
+      "name": "jumpBadge_p40_p44",
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "gBVTO",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P4.4 退款审批",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "PAy1g",
+      "x": 6700,
+      "y": 14000,
+      "name": "jumpBadge_p42_p43",
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "TgqHc",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P4.3 独立部分取消",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "MGiA8",
+      "x": 11840,
+      "y": 14020,
+      "name": "jumpBadge_p44_p441",
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "zcmWv",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P4.4.1 驳回回流",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "akPtB",
+      "x": 1500,
+      "y": 18060,
+      "name": "jumpBadge_p50_p501",
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "AIKCe",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P5.0.1 合同详情",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "dAMBl",
+      "x": 1500,
+      "y": 18088,
+      "name": "jumpBadge_p50_p51",
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "0Yl6o",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P5.1 批量导入",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "zpz83",
+      "x": 1500,
+      "y": 18116,
+      "name": "jumpBadge_p50_p52",
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "D3QYr",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P5.2 资源矩阵锁位",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "hHgqj",
+      "x": 1500,
+      "y": 18144,
+      "name": "jumpBadge_p50_p53",
+      "fill": "#FEF3C7",
+      "cornerRadius": 999,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#F59E0B"
+      },
+      "padding": [
+        4,
+        8
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "mCzNP",
+          "fill": "#92400E",
+          "content": "[->] 跳转至：P5.3 团队预订建单",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "600"
+        }
+      ]
     }
   ]
 }
