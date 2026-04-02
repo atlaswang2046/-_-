@@ -1,5 +1,5 @@
 {
-  "version": "2.9",
+  "version": "2.10",
   "children": [
     {
       "type": "frame",
@@ -79641,7 +79641,7 @@
                               "type": "text",
                               "id": "oicjv",
                               "fill": "#606266",
-                              "content": "太赫兹仓-无痛评估-无黑处理-有权益-无-无-待挂号-无-已使用-无-黄兰美-2026-01-02 15:24:22",
+                              "content": "特色项目-无痛评估-无黑处理-有权益-无-无-待挂号-无-已使用-无-黄兰美-2026-01-02 15:24:22",
                               "fontFamily": "Inter",
                               "fontSize": 11,
                               "fontWeight": "normal"
