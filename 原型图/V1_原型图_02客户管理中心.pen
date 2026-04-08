@@ -15801,16 +15801,6 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "1C1pr",
-                          "name": "tip1",
-                          "fill": "#1D4ED8",
-                          "content": "来源页面: P3.0 样例行『入住前提醒』点击 编辑 进入",
-                          "fontFamily": "Inter",
-                          "fontSize": 12,
-                          "fontWeight": "600"
-                        },
-                        {
-                          "type": "text",
                           "id": "atHOH",
                           "name": "tip2",
                           "fill": "#16A34A",
@@ -18316,9 +18306,9 @@
     {
       "type": "frame",
       "id": "Z28V6",
-      "x": 5592,
-      "y": 6212,
-      "name": "P4.2满意度回访-客户工单明细",
+      "x": 5554,
+      "y": 7444,
+      "name": "P4.2-B 调研问卷-离店后满意度调查",
       "width": 1920,
       "height": 1080,
       "fill": "$color_page_bg",
@@ -18350,7 +18340,7 @@
               "id": "eWy91",
               "name": "TopTitle",
               "fill": "$color_text_primary",
-              "content": "客户管理中心 / P4.2 满意度回访-客户明细",
+              "content": "客户管理中心 / P4.2 调研问卷-离店后满意度调查",
               "fontFamily": "Inter",
               "fontSize": 18,
               "fontWeight": "700"
@@ -18469,7 +18459,7 @@
                   "id": "7dS0a",
                   "name": "PageTitle",
                   "fill": "$color_text_primary",
-                  "content": "P4.2 满意度回访-客户明细",
+                  "content": "P4.2 调研问卷-离店后满意度调查",
                   "fontFamily": "Inter",
                   "fontSize": 24,
                   "fontWeight": "700"
@@ -18526,7 +18516,7 @@
                               "id": "M2OqG",
                               "name": "c1t",
                               "fill": "#A8ABB2",
-                              "content": "回访单号/客户姓名",
+                              "content": "问卷单号/客户姓名",
                               "fontFamily": "Inter",
                               "fontSize": 12,
                               "fontWeight": "500"
@@ -18558,7 +18548,7 @@
                               "id": "aweUU",
                               "name": "c2t",
                               "fill": "#606266",
-                              "content": "回访场景",
+                              "content": "问卷类型",
                               "fontFamily": "Inter",
                               "fontSize": 12,
                               "fontWeight": "500"
@@ -18590,7 +18580,7 @@
                               "id": "yphy8",
                               "name": "c3t",
                               "fill": "#606266",
-                              "content": "回访状态",
+                              "content": "回收状态",
                               "fontFamily": "Inter",
                               "fontSize": 12,
                               "fontWeight": "500"
@@ -18622,7 +18612,7 @@
                               "id": "kn279",
                               "name": "c4t",
                               "fill": "#606266",
-                              "content": "回访日期",
+                              "content": "离店日期",
                               "fontFamily": "Inter",
                               "fontSize": 12,
                               "fontWeight": "500"
@@ -18729,7 +18719,7 @@
                               "type": "text",
                               "id": "Bwohh",
                               "fill": "$color_text_tertiary",
-                              "content": "问卷发送",
+                              "content": "离店问卷发送",
                               "fontFamily": "Inter",
                               "fontSize": 12,
                               "fontWeight": "500"
@@ -18821,7 +18811,7 @@
                               "type": "text",
                               "id": "ANDUa",
                               "fill": "$color_text_tertiary",
-                              "content": "NPS",
+                              "content": "满意度均分",
                               "fontFamily": "Inter",
                               "fontSize": 12,
                               "fontWeight": "500"
@@ -18830,7 +18820,7 @@
                               "type": "text",
                               "id": "P3bnQ",
                               "fill": "$color_text_primary",
-                              "content": "43",
+                              "content": "4.3",
                               "fontFamily": "Inter",
                               "fontSize": 22,
                               "fontWeight": "700"
@@ -18867,7 +18857,7 @@
                               "type": "text",
                               "id": "8ygqa",
                               "fill": "$color_text_tertiary",
-                              "content": "已回写工单",
+                              "content": "低分预警",
                               "fontFamily": "Inter",
                               "fontSize": 12,
                               "fontWeight": "500"
@@ -18885,7 +18875,7 @@
                               "type": "text",
                               "id": "vRFk9",
                               "fill": "#16A34A",
-                              "content": "自动回写",
+                              "content": "需复访",
                               "fontFamily": "Inter",
                               "fontSize": 12,
                               "fontWeight": "600"
@@ -19066,7 +19056,7 @@
                             {
                               "type": "frame",
                               "id": "2r1E2",
-                              "width": 130,
+                              "width": 190,
                               "justifyContent": "center",
                               "alignItems": "center",
                               "children": [
@@ -19218,7 +19208,7 @@
                                   "type": "text",
                                   "id": "VG53p",
                                   "fill": "#374151",
-                                  "content": "NPS<8,需二次关怀回访",
+                                  "content": "餐饮满意度偏低(7分),触发AI二次回访",
                                   "fontFamily": "Inter",
                                   "fontSize": 12,
                                   "fontWeight": "500"
@@ -19246,7 +19236,7 @@
                             {
                               "type": "frame",
                               "id": "crr8V",
-                              "width": 130,
+                              "width": 190,
                               "justifyContent": "center",
                               "alignItems": "center",
                               "children": [
@@ -19279,7 +19269,8 @@
                                     },
                                     {
                                       "type": "frame",
-                                      "id": "eyEkY",
+                                      "id": "ieg8m",
+                                      "name": "btnTag1",
                                       "fill": "#FFFFFF",
                                       "cornerRadius": 4,
                                       "stroke": {
@@ -19294,9 +19285,9 @@
                                       "children": [
                                         {
                                           "type": "text",
-                                          "id": "XmiwC",
+                                          "id": "J7GsJ",
                                           "fill": "#334155",
-                                          "content": "处理",
+                                          "content": "填写回访标签",
                                           "fontFamily": "Inter",
                                           "fontSize": 11,
                                           "fontWeight": "600"
@@ -19444,7 +19435,7 @@
                                   "type": "text",
                                   "id": "HyvXi",
                                   "fill": "#374151",
-                                  "content": "已回访,待评分回收",
+                                  "content": "离店后问卷已回收,建议补充睡眠质量",
                                   "fontFamily": "Inter",
                                   "fontSize": 12,
                                   "fontWeight": "500"
@@ -19472,7 +19463,7 @@
                             {
                               "type": "frame",
                               "id": "MvzV3",
-                              "width": 130,
+                              "width": 190,
                               "justifyContent": "center",
                               "alignItems": "center",
                               "children": [
@@ -19505,7 +19496,8 @@
                                     },
                                     {
                                       "type": "frame",
-                                      "id": "FK6Oe",
+                                      "id": "cfFqx",
+                                      "name": "btnTag2",
                                       "fill": "#FFFFFF",
                                       "cornerRadius": 4,
                                       "stroke": {
@@ -19520,9 +19512,9 @@
                                       "children": [
                                         {
                                           "type": "text",
-                                          "id": "ECsdp",
+                                          "id": "w44kz",
                                           "fill": "#334155",
-                                          "content": "处理",
+                                          "content": "填写回访标签",
                                           "fontFamily": "Inter",
                                           "fontSize": 11,
                                           "fontWeight": "600"
@@ -19670,7 +19662,7 @@
                                   "type": "text",
                                   "id": "tEhdk",
                                   "fill": "#374151",
-                                  "content": "生日关怀回访+服务体验确认",
+                                  "content": "康养课程好评,系统建议推送复购权益",
                                   "fontFamily": "Inter",
                                   "fontSize": 12,
                                   "fontWeight": "500"
@@ -19698,7 +19690,7 @@
                             {
                               "type": "frame",
                               "id": "aJcIS",
-                              "width": 130,
+                              "width": 190,
                               "justifyContent": "center",
                               "alignItems": "center",
                               "children": [
@@ -19731,7 +19723,8 @@
                                     },
                                     {
                                       "type": "frame",
-                                      "id": "uxUWv",
+                                      "id": "Yznkv",
+                                      "name": "btnTag3",
                                       "fill": "#FFFFFF",
                                       "cornerRadius": 4,
                                       "stroke": {
@@ -19746,9 +19739,9 @@
                                       "children": [
                                         {
                                           "type": "text",
-                                          "id": "CLh0f",
+                                          "id": "BL7qG",
                                           "fill": "#334155",
-                                          "content": "处理",
+                                          "content": "填写回访标签",
                                           "fontFamily": "Inter",
                                           "fontSize": 11,
                                           "fontWeight": "600"
@@ -19889,7 +19882,7 @@
                                   "type": "text",
                                   "id": "9avER",
                                   "fill": "#374151",
-                                  "content": "首住关怀问卷待发送",
+                                  "content": "首住问卷已发送,待客户补充离店评价",
                                   "fontFamily": "Inter",
                                   "fontSize": 12,
                                   "fontWeight": "500"
@@ -19917,7 +19910,7 @@
                             {
                               "type": "frame",
                               "id": "cIodj",
-                              "width": 130,
+                              "width": 190,
                               "justifyContent": "center",
                               "alignItems": "center",
                               "children": [
@@ -19950,7 +19943,8 @@
                                     },
                                     {
                                       "type": "frame",
-                                      "id": "aks9F",
+                                      "id": "uuG7h",
+                                      "name": "btnTag4",
                                       "fill": "#FFFFFF",
                                       "cornerRadius": 4,
                                       "stroke": {
@@ -19965,9 +19959,9 @@
                                       "children": [
                                         {
                                           "type": "text",
-                                          "id": "g4d5b",
+                                          "id": "Nbdza",
                                           "fill": "#334155",
-                                          "content": "处理",
+                                          "content": "填写回访标签",
                                           "fontFamily": "Inter",
                                           "fontSize": 11,
                                           "fontWeight": "600"
@@ -26959,37 +26953,27 @@
       "name": "noteP3_0_1",
       "width": 250,
       "height": 240,
-      "content": "📋 3.0.1 规则运行任务配置\n【核心逻辑】定义营销规则运行任务与执行窗口\n【主操作】配置任务、启停规则、查看执行结果\n【关键校验】触发条件有效、频控与渠道限流生效"
+      "content": "📋 3.0.1 规则运行任务配置\n【核心逻辑】定义营销规则运行任务与执行窗口\n【主操作】配置任务、启停规则、查看执行结果\n【关键校验】触发条件有效、频控与渠道限流生效\n【补充说明】来源页面: P3.0 样例行「入住前提醒」点击编辑进入"
     },
     {
       "type": "note",
       "id": "c1QCZ",
       "x": 5278,
-      "y": 6212,
+      "y": 7412,
       "name": "noteP4_1_1",
       "width": 250,
       "height": 240,
-      "content": "📋 4.1.1 客诉处理-客户工单明细\n【核心逻辑】按客户维度查看客诉工单全流程明细\n【主操作】按工单编号查询、查看处理记录、导出\n【关键校验】处理节点完整、SLA截止时间准确"
-    },
-    {
-      "type": "note",
-      "id": "pzKlz",
-      "x": 7558,
-      "y": 6203,
-      "name": "noteP4_2_1",
-      "width": 250,
-      "height": 240,
-      "content": "📋 4.2.1 满意度回访-客户工单明细\n【核心逻辑】按客户查看回访记录与工单回写链路\n【主操作】按回访单查询、查看回写结果、导出\n【关键校验】低分回访触发工单规则一致"
+      "content": "📋 4.1.1 客诉处理-处理抽屉页\n【核心逻辑】管理者在抽屉内完成客诉处置闭环记录\n【主操作】填写涉及人员、客诉详情、处理结果、客户反馈\n【关键校验】处理节点完整、SLA截止时间准确\n【补充说明】触发来源: P4.1 列表点击「处理」"
     },
     {
       "type": "note",
       "id": "FThHj",
-      "x": 11490,
-      "y": 6189,
+      "x": 9890,
+      "y": 7412,
       "name": "noteP4_3_1",
       "width": 250,
-      "height": 240,
-      "content": "📋 4.3.1 接驳用车-客户详情弹框\n【核心逻辑】点击单个客户查看订车全字段分组详情\n【主操作】查看预约、行程、车辆司机、调度节点与取消信息\n【关键校验】状态与时间节点完整且可追溯"
+      "height": 247,
+      "content": "📋 4.3.1 接驳用车-查看详情抽屉\n【核心逻辑】点击单个客户查看订车全字段分组详情\n【主操作】查看预约、行程、车辆司机、调度节点与取消信息\n【关键校验】状态与时间节点完整且可追溯\n【补充说明】触发来源: P4.3 列表点击客户查看详情"
     },
     {
       "type": "note",
@@ -34362,16 +34346,6 @@
                   "alignItems": "center",
                   "children": [
                     {
-                      "type": "text",
-                      "id": "IItdp",
-                      "name": "actionAText",
-                      "fill": "$color_text_secondary",
-                      "content": "触发来源: P4.1 客诉列表 > 点击「处理」",
-                      "fontFamily": "Inter",
-                      "fontSize": 12,
-                      "fontWeight": "500"
-                    },
-                    {
                       "type": "frame",
                       "id": "yLLBH",
                       "name": "stateTag",
@@ -34448,16 +34422,6 @@
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "600"
-                            },
-                            {
-                              "type": "text",
-                              "id": "JlHKg",
-                              "name": "leftAT2",
-                              "fill": "#64748B",
-                              "content": "右侧抽屉用于管理者填写处理过程与闭环记录。",
-                              "fontFamily": "Inter",
-                              "fontSize": 12,
-                              "fontWeight": "500"
                             }
                           ]
                         },
@@ -34981,16 +34945,6 @@
                   "alignItems": "center",
                   "children": [
                     {
-                      "type": "text",
-                      "id": "tmw9O",
-                      "name": "actionAText",
-                      "fill": "$color_text_secondary",
-                      "content": "触发来源: P4.3 列表 > 点击客户「林安琪」查看详情",
-                      "fontFamily": "Inter",
-                      "fontSize": 12,
-                      "fontWeight": "500"
-                    },
-                    {
                       "type": "frame",
                       "id": "IuoRq",
                       "name": "stateTag",
@@ -35396,57 +35350,6 @@
                                       "fontWeight": "600"
                                     }
                                   ]
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "QRpqW",
-                                  "name": "bs",
-                                  "fill": "#FFFFFF",
-                                  "cornerRadius": 6,
-                                  "stroke": {
-                                    "align": "inside",
-                                    "thickness": 1,
-                                    "fill": "#CBD5E1"
-                                  },
-                                  "padding": [
-                                    6,
-                                    12
-                                  ],
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "id": "bIosJ",
-                                      "name": "bst",
-                                      "fill": "#475569",
-                                      "content": "复制链接",
-                                      "fontFamily": "Inter",
-                                      "fontSize": 12,
-                                      "fontWeight": "600"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "OGrAu",
-                                  "name": "bp",
-                                  "fill": "#2563EB",
-                                  "cornerRadius": 6,
-                                  "padding": [
-                                    6,
-                                    12
-                                  ],
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "id": "rd556",
-                                      "name": "bpt",
-                                      "fill": "#FFFFFF",
-                                      "content": "编辑派车",
-                                      "fontFamily": "Inter",
-                                      "fontSize": 12,
-                                      "fontWeight": "600"
-                                    }
-                                  ]
                                 }
                               ]
                             }
@@ -35461,6 +35364,1639 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "KM66S",
+      "x": 5554,
+      "y": 6212,
+      "name": "P4.2-A 调研问卷-到店前问卷",
+      "width": 1920,
+      "height": 1080,
+      "fill": "$color_page_bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Rw4Wt",
+          "name": "TopNav",
+          "width": "fill_container",
+          "height": 64,
+          "fill": "$color_topnav_bg",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "$color_topnav_border"
+          },
+          "padding": [
+            0,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "uVuiR",
+              "name": "TopTitle",
+              "fill": "$color_text_primary",
+              "content": "客户管理中心 / P4.2.1 调研问卷-到店前问卷",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "KBhV6",
+              "name": "TopMeta",
+              "fill": "$color_text_tertiary",
+              "content": "品牌: 钻石湾  |  院区: 天津  |  日期: 今日",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lSFex",
+          "name": "Body",
+          "width": "fill_container",
+          "height": "fill_container",
+          "children": [
+            {
+              "type": "frame",
+              "id": "RPSIA",
+              "name": "Sidebar",
+              "width": 240,
+              "height": "fill_container",
+              "fill": "$color_sidebar_bg",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "right": 1
+                },
+                "fill": "$color_sidebar_border"
+              },
+              "layout": "vertical",
+              "gap": 8,
+              "padding": [
+                16,
+                12
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "1TaiX",
+                  "fill": "$color_sidebar_text_secondary",
+                  "content": "会员管理",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "u24T3",
+                  "fill": "$color_sidebar_text_secondary",
+                  "content": "积分与资产",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "qErW6",
+                  "fill": "$color_sidebar_text_secondary",
+                  "content": "营销自动化",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "30Fg7",
+                  "fill": "$color_sidebar_text_secondary",
+                  "content": "系统对接",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "XyTZm",
+                  "fill": "$color_sidebar_text_primary",
+                  "content": "客户服务",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "I5nvK",
+                  "fill": "$color_sidebar_text_secondary",
+                  "content": "数据报表",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zebbV",
+              "name": "Content",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": [
+                12,
+                16
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GyPbp",
+                  "name": "PageTitle",
+                  "fill": "$color_text_primary",
+                  "content": "P4.2.1 调研问卷-到店前问卷",
+                  "fontFamily": "Inter",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "35otC",
+                  "name": "FilterBar",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "$color_card_bg",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$color_card_border"
+                  },
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "VexSf",
+                      "name": "c5",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "mn83M",
+                          "name": "c1",
+                          "width": 200,
+                          "height": 32,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 4,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#DCDFE6"
+                          },
+                          "padding": [
+                            0,
+                            10
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Jh1QI",
+                              "name": "c1t",
+                              "fill": "#A8ABB2",
+                              "content": "问卷单号/客户姓名",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "TkaQd",
+                          "name": "c2",
+                          "width": 130,
+                          "height": 32,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 4,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#DCDFE6"
+                          },
+                          "padding": [
+                            0,
+                            10
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "5nNh0",
+                              "name": "c2t",
+                              "fill": "#606266",
+                              "content": "到店场景",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "szj5D",
+                          "name": "c3",
+                          "width": 130,
+                          "height": 32,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 4,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#DCDFE6"
+                          },
+                          "padding": [
+                            0,
+                            10
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "DBFVe",
+                              "name": "c3t",
+                              "fill": "#606266",
+                              "content": "提交状态",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wgXxW",
+                          "name": "c4",
+                          "width": 220,
+                          "height": 32,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 4,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#DCDFE6"
+                          },
+                          "padding": [
+                            0,
+                            10
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "UpJYs",
+                              "name": "c4t",
+                              "fill": "#606266",
+                              "content": "预计到店日期",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "CJsgB",
+                          "name": "b1",
+                          "width": 66,
+                          "height": 32,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 4,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#DCDFE6"
+                          },
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "NdysT",
+                              "name": "b1t",
+                              "fill": "#606266",
+                              "content": "重置",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ev9tW",
+                          "name": "b2",
+                          "width": 66,
+                          "height": 32,
+                          "fill": "#409EFF",
+                          "cornerRadius": 4,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "X3lm7",
+                              "name": "b2t",
+                              "fill": "#FFFFFF",
+                              "content": "查询",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YhRM4",
+                  "name": "页面主内容区",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#F8FAFC",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5EAF2"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Q8O86",
+                      "name": "m",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ZWjeL",
+                          "name": "CMP/KPICard",
+                          "width": "fill_container",
+                          "height": 116,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 8,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#E5EAF2"
+                          },
+                          "layout": "vertical",
+                          "gap": 6,
+                          "padding": 12,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "A7IKc",
+                              "fill": "$color_text_tertiary",
+                              "content": "问卷发送量",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Ngz6z",
+                              "fill": "$color_text_primary",
+                              "content": "986",
+                              "fontFamily": "Inter",
+                              "fontSize": 22,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "W69Qt",
+                              "fill": "#16A34A",
+                              "content": "今日已发送",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "tX4Xm",
+                          "name": "CMP/KPICard",
+                          "width": "fill_container",
+                          "height": 116,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 8,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#E5EAF2"
+                          },
+                          "layout": "vertical",
+                          "gap": 6,
+                          "padding": 12,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Iv6Rl",
+                              "fill": "$color_text_tertiary",
+                              "content": "问卷完成率",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "nTBlV",
+                              "fill": "$color_text_primary",
+                              "content": "72.4%",
+                              "fontFamily": "Inter",
+                              "fontSize": 22,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "55Zdq",
+                              "fill": "#16A34A",
+                              "content": "较昨日 +1.8%",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "3dfMA",
+                          "name": "CMP/KPICard",
+                          "width": "fill_container",
+                          "height": 116,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 8,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#E5EAF2"
+                          },
+                          "layout": "vertical",
+                          "gap": 6,
+                          "padding": 12,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "1lMQr",
+                              "fill": "$color_text_tertiary",
+                              "content": "客户到店率",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ax2t8",
+                              "fill": "$color_text_primary",
+                              "content": "86.8%",
+                              "fontFamily": "Inter",
+                              "fontSize": 22,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "UPXBl",
+                              "fill": "#16A34A",
+                              "content": "较昨日 +2.3%",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "4CSGF",
+                          "name": "CMP/KPICard",
+                          "width": "fill_container",
+                          "height": 116,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 8,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#E5EAF2"
+                          },
+                          "layout": "vertical",
+                          "gap": 6,
+                          "padding": 12,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "uFEr0",
+                              "fill": "$color_text_tertiary",
+                              "content": "推荐项目成交率",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "UJ10l",
+                              "fill": "$color_text_primary",
+                              "content": "24.6%",
+                              "fontFamily": "Inter",
+                              "fontSize": 22,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "9Rxkm",
+                              "fill": "#16A34A",
+                              "content": "较昨日 +1.7%",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "e1nuz",
+                      "type": "ref",
+                      "ref": "T3qzr",
+                      "width": "fill_container",
+                      "y": 140,
+                      "height": "fit_content",
+                      "x": 12,
+                      "descendants": {
+                        "zkD8u": {
+                          "type": "frame",
+                          "id": "TNsJW",
+                          "fill": "#F5F7FA",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": {
+                              "bottom": 1
+                            },
+                            "fill": "#E9EDF3"
+                          },
+                          "padding": [
+                            10,
+                            12
+                          ],
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "BZ9CP",
+                              "width": 100,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ZFdQR",
+                                  "fill": "#6B7280",
+                                  "content": "客户ID",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "SjP5Z",
+                              "width": 140,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "dkqvX",
+                                  "fill": "#6B7280",
+                                  "content": "客户姓名",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Qc9dp",
+                              "width": 110,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "DuHGE",
+                                  "fill": "#6B7280",
+                                  "content": "会员等级",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "vFBhN",
+                              "width": 110,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "IxnVt",
+                                  "fill": "#6B7280",
+                                  "content": "在住阶段",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "s9Mjn",
+                              "width": 170,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "lAAEJ",
+                                  "fill": "#6B7280",
+                                  "content": "最近入住信息",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "SN4dO",
+                              "width": 190,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "7n8ON",
+                                  "fill": "#6B7280",
+                                  "content": "近30天消费",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "9pFxp",
+                              "width": 220,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Une2s",
+                                  "fill": "#6B7280",
+                                  "content": "AI智能调研问卷",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "txhXS",
+                              "width": 90,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Yo2Fb",
+                                  "fill": "#6B7280",
+                                  "content": "状态",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "r5Z4x",
+                              "width": 130,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "wmbl2",
+                                  "fill": "#6B7280",
+                                  "content": "操作",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "p9Kto": {
+                          "type": "frame",
+                          "id": "szjPM",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": {
+                              "bottom": 1
+                            },
+                            "fill": "#EEF2F6"
+                          },
+                          "padding": [
+                            10,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "UUqeb",
+                              "width": 100,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "D7R4l",
+                                  "fill": "#111827",
+                                  "content": "C-10072",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "V5f0d",
+                              "width": 140,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "o0lup",
+                                  "fill": "#374151",
+                                  "content": "周可欣",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "YPWfd",
+                              "width": 110,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "YIKOQ",
+                                  "fill": "#374151",
+                                  "content": "黑金",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "jgjJg",
+                              "width": 110,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "3Fc5u",
+                                  "fill": "#374151",
+                                  "content": "住后",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "2C7EU",
+                              "width": 170,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "g7rDo",
+                                  "fill": "#374151",
+                                  "content": "04-06 已离店",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Zg63B",
+                              "width": 190,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "1zDyL",
+                                  "fill": "#374151",
+                                  "content": "房¥4120/康¥1860",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "djNle",
+                              "width": 220,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ZxsAJ",
+                                  "fill": "#374151",
+                                  "content": "餐饮满意度偏低(7分),触发AI二次回访",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "GOe4n",
+                              "width": 90,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "YoODX",
+                                  "fill": "#16A34A",
+                                  "content": "已回收",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "hI4q2",
+                              "width": 130,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "IvOad",
+                                  "gap": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "eyirK",
+                                      "fill": "#2563EB",
+                                      "cornerRadius": 4,
+                                      "padding": [
+                                        3,
+                                        8
+                                      ],
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "ZYpKF",
+                                          "fill": "#FFFFFF",
+                                          "content": "查看详情",
+                                          "fontFamily": "Inter",
+                                          "fontSize": 11,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "0MQC0": {
+                          "type": "frame",
+                          "id": "uAn6d",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": {
+                              "bottom": 1
+                            },
+                            "fill": "#EEF2F6"
+                          },
+                          "padding": [
+                            10,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "m2U4R",
+                              "width": 100,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Aa2Fv",
+                                  "fill": "#111827",
+                                  "content": "C-10083",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "PnAnw",
+                              "width": 140,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "wKGcY",
+                                  "fill": "#374151",
+                                  "content": "刘子墨",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "zrNPX",
+                              "width": 110,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "y6noK",
+                                  "fill": "#374151",
+                                  "content": "金卡",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "UqB8i",
+                              "width": 110,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Cni54",
+                                  "fill": "#374151",
+                                  "content": "住后",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Uz07V",
+                              "width": 170,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "GJySW",
+                                  "fill": "#374151",
+                                  "content": "04-05 已离店",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "OwyVo",
+                              "width": 190,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ttMEB",
+                                  "fill": "#374151",
+                                  "content": "房¥2460/餐¥510",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "8vPQ3",
+                              "width": 220,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "SButP",
+                                  "fill": "#374151",
+                                  "content": "离店后问卷已回收,建议补充睡眠质量",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "OxO20",
+                              "width": 90,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "sA7e6",
+                                  "fill": "#16A34A",
+                                  "content": "已回收",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "QuqOU",
+                              "width": 130,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "4DVoS",
+                                  "gap": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "K2HDs",
+                                      "fill": "#2563EB",
+                                      "cornerRadius": 4,
+                                      "padding": [
+                                        3,
+                                        8
+                                      ],
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "nWg0C",
+                                          "fill": "#FFFFFF",
+                                          "content": "查看详情",
+                                          "fontFamily": "Inter",
+                                          "fontSize": 11,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "Y1B4E": {
+                          "type": "frame",
+                          "id": "FaAij",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": {
+                              "bottom": 1
+                            },
+                            "fill": "#EEF2F6"
+                          },
+                          "padding": [
+                            10,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "tvctI",
+                              "width": 100,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "WlsOw",
+                                  "fill": "#111827",
+                                  "content": "C-10095",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "CHCBI",
+                              "width": 140,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "6y9fg",
+                                  "fill": "#374151",
+                                  "content": "孙嘉宁",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "j8VVp",
+                              "width": 110,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "yPq4z",
+                                  "fill": "#374151",
+                                  "content": "银卡",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "WohYE",
+                              "width": 110,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "oeHYb",
+                                  "fill": "#374151",
+                                  "content": "住中",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "4yXHu",
+                              "width": 170,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "u54SB",
+                                  "fill": "#374151",
+                                  "content": "04-08 在住",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "A04vV",
+                              "width": 190,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "XMFFM",
+                                  "fill": "#374151",
+                                  "content": "房¥1360/餐¥260",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "1hCtB",
+                              "width": 220,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "aEakX",
+                                  "fill": "#374151",
+                                  "content": "康养课程好评,系统建议推送复购权益",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "YiKWR",
+                              "width": 90,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "MJ2Ms",
+                                  "fill": "#2563EB",
+                                  "content": "已发送",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "RO54n",
+                              "width": 130,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "CnAbT",
+                                  "gap": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "gknXn",
+                                      "fill": "#2563EB",
+                                      "cornerRadius": 4,
+                                      "padding": [
+                                        3,
+                                        8
+                                      ],
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "6b6hV",
+                                          "fill": "#FFFFFF",
+                                          "content": "查看详情",
+                                          "fontFamily": "Inter",
+                                          "fontSize": 11,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "WBLEf": {
+                          "type": "frame",
+                          "id": "3hGJa",
+                          "padding": [
+                            10,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "mQ3WZ",
+                              "width": 100,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "GFjay",
+                                  "fill": "#111827",
+                                  "content": "C-10102",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "G76Oy",
+                              "width": 140,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "5Fjgj",
+                                  "fill": "#374151",
+                                  "content": "唐一凡",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "7lr9C",
+                              "width": 110,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "2rkmb",
+                                  "fill": "#374151",
+                                  "content": "普卡",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "fHQiJ",
+                              "width": 110,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "PYWOJ",
+                                  "fill": "#374151",
+                                  "content": "住后",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "YSXBo",
+                              "width": 170,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "c6o2y",
+                                  "fill": "#374151",
+                                  "content": "04-04 已离店",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "jxWc5",
+                              "width": 190,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "JGlwM",
+                                  "fill": "#374151",
+                                  "content": "房¥890/餐¥120",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "LxZCn",
+                              "width": 220,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "wp2m5",
+                                  "fill": "#374151",
+                                  "content": "首住问卷已发送,待客户补充离店评价",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "4mt6C",
+                              "width": 90,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "8B8HD",
+                                  "fill": "#2563EB",
+                                  "content": "已发送",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "JQfTN",
+                              "width": 130,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "3g1Gc",
+                                  "gap": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "Xkh20",
+                                      "fill": "#2563EB",
+                                      "cornerRadius": 4,
+                                      "padding": [
+                                        3,
+                                        8
+                                      ],
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "CEKQQ",
+                                          "fill": "#FFFFFF",
+                                          "content": "查看详情",
+                                          "fontFamily": "Inter",
+                                          "fontSize": 11,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "id": "pMzsP",
+      "x": 2925,
+      "y": 3660,
+      "name": "noteP2_1_1",
+      "width": 250,
+      "height": 240,
+      "content": "📋 2.1.1 积分配置规则页面\n【核心逻辑】按渠道/等级/项目配置积分获取比例与计算规则\n【主操作】维护比例、试算验证、发布生效\n【关键校验】比例边界、叠加顺序、时间生效窗口"
+    },
+    {
+      "type": "note",
+      "id": "ekDkz",
+      "x": 5240,
+      "y": 3660,
+      "name": "noteP2_2_1",
+      "width": 250,
+      "height": 240,
+      "content": "📋 2.2.1 积分消耗规则配置\n【核心逻辑】配置积分兑换项目、服务与商品的消耗规则\n【主操作】设置兑换门槛、库存占用、核销规则\n【关键校验】兑换比例准确、库存回滚正确、积分扣减一致"
+    },
+    {
+      "type": "note",
+      "id": "nv9zx",
+      "x": 5278,
+      "y": 6212,
+      "name": "noteP4_1",
+      "width": 250,
+      "height": 240,
+      "content": "📋 4.1 客诉处理-客户工单明细\n【核心逻辑】客诉工单按客户维度跟踪处理闭环\n【主操作】筛选工单、查看详情、处理并回写结果\n【关键校验】SLA时限、状态流转、责任人信息完整"
+    },
+    {
+      "type": "note",
+      "id": "1YLZZ",
+      "x": 7494,
+      "y": 6212,
+      "name": "noteP4_2_A",
+      "width": 250,
+      "height": 240,
+      "content": "📋 4.2-A 调研问卷-到店前问卷\n【核心逻辑】到店前收集偏好与特殊需求并生成服务标签\n【主操作】发送问卷、查看回收、填写回访标签\n【关键校验】过敏/接送等关键信息在到店前可见且标签回写及时"
+    },
+    {
+      "type": "note",
+      "id": "amukS",
+      "x": 7507,
+      "y": 7444,
+      "name": "noteP4_2_B",
+      "width": 250,
+      "height": 240,
+      "content": "📋 4.2-B 调研问卷-离店后满意度调查\n【核心逻辑】离店后满意度回收并完成复访闭环\n【主操作】查看详情、填写回访标签、跟进复访\n【关键校验】回收状态准确、低分客户二次回访"
+    },
+    {
+      "type": "note",
+      "id": "DdEAS",
+      "x": 10750,
+      "y": 6212,
+      "name": "noteP4_3",
+      "width": 250,
+      "height": 240,
+      "content": "📋 4.3 接驳用车-订车预约明细\n【核心逻辑】订车预约全流程跟踪与调度协同\n【主操作】查询订单、查看详情、处理异常\n【关键校验】时间节点一致、司机车辆匹配、状态可追溯"
     }
   ],
   "variables": {
