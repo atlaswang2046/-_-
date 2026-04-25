@@ -1,0 +1,53 @@
+# 🌟 B-End System High-Fidelity UI Specification (Based on Element Plus)
+**System Purpose:** To instruct Codex & Pencil MCP in generating consistent, component-based, high-fidelity prototypes.
+**Global Style:** Element Plus / 极简主义呼吸感 (Minimalist Airy Design) / 局部现代毛玻璃效果 (Glassmorphism)
+
+---
+
+## 1. 框架与全局变量 (Global Design Tokens)
+- **Primary Color:** `#409EFF` (Brand Blue)
+- **Success Color:** `#67C23A`
+- **Warning Color:** `#E6A23C`
+- **Danger Color:** `#F56C6C`
+- **Background Color:** Page ` #F2F3F5`, Content Box `#FFFFFF`
+- **Typography:** `Inter` or `PingFang SC`. Title `18px`, Standard text `14px`, Secondary text `12px`.
+- **Border Radius:** `4px` (Standard Element Plus).
+- **Spacing System:** Base multiplier of `8px` (e.g., 16px padding, 24px margins). Maintain high "Airy" white space.
+
+## 2. 页面层级与排版绝对约束 (Hierarchy & Layout Strict Rules)
+- **Naming Convention:** All prototype page hierarchies MUST use strict numerical formats (e.g., `2.1.1`, `2.1.2`).
+- **Spatial Expansion:** Sub-pages MUST expand vertically downwards below their parent pages. Elements must flow sequentially; overlapping is strictly prohibited.
+- **Page Structure:** Standard Left Sidebar (Width: 200px, Collapsible) + Top Header (Height: 60px) + Main Content Area (padding: 20px).
+
+## 3. 核心组件渲染规范 (Core Component Rendering)
+When drawing elements, Codex must group them into recognized Element Plus VNode components, avoiding scattered plain text.
+
+### 3.1 数据表格 (el-table)
+- **Container:** Must draw a single rectangular container with a 1px `#EBEEF5` border.
+- **Header:** Background `#F5F7FA`, Font weight `Bold`, Color `#606266`.
+- **Row Specs:** Fixed Row Height of `54px`.
+- **Data Cells:** Vertical align `middle`, Margin bottom `0`. Provide `20px` padding-left for readability.
+
+### 3.2 标签与状态 (el-tag)
+- NEVER use plain colored text for statuses. Use bounded tag components.
+- Example: [启用] = Light Green BG + Green Border + Green Text `#67C23A`.
+
+### 3.3 表单与筛选项 (el-form inline)
+- Inline search bars should use `Height: 32px` standard inputs.
+- Always include standard button pairs grouped together: `[查询 (Primary)]` and `[重置 (Default)]`.
+
+## 4. Pencil MCP 业务逻辑标注规范 (Strict Annotation Protocol)
+This section controls how Pencil MCP documents the business logic alongside the UI prototype. 
+**These spatial and content rules are MANDATORY:**
+
+- **Note Width:** FIXED at `250` pixels.
+- **Spatial Offset:** The note container must ALWAYS be positioned exactly at `note.x = page.x + 1940`.
+- **Content Dimensions:** Every note must sequentially output the following 5 dimensions:
+  1. **Logic (逻辑):** Core business rule associated with the UI section.
+  2. **Flow (流程):** The user action sequence (e.g., A -> B -> C).
+  3. **Required Fields (必填字段):** List of mandatory inputs.
+  4. **Validation (校验规则):** Error triggers and data format constraints.
+  5. **Constraints (约束条件):** State-based limits (e.g., Cannot delete if status is active).
+
+## 5. 渲染强制指令 (Execution Command)
+> "Render all data within unified SVG/VNode component structures. Strictly apply the `page.x + 1940` offset for annotations and the `2.1.1` vertical expansion rule for page layouts."
